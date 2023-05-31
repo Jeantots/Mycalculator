@@ -1,0 +1,23 @@
+.calcu{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: rgba(52, 68, 68, 0.829);
+}
+#result{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.keypad{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+.keypad button{
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    color: aliceblue;
+}
